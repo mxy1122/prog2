@@ -1,5 +1,5 @@
 public interface figura {
 
-    public void area();
+    public double area();
 
 }

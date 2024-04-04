@@ -1,5 +1,5 @@
  public interface rotar{
-        public void rotable();
+        public boolean rotable();
     }
 
 

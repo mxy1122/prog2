@@ -1,19 +1,28 @@
 public class Cuadrado implements figuras{
-    private String lado;
-    public Cuadrado(String lado){
+    private double lado;
+    public Cuadrado(double lado){
         this.lado=lado;
     }
-    public void setLado(String lado){
+    public void setLado(double lado){
         this.lado = lado;
     }
-    public String getLado(){
+    public double getLado(){
         return lado;
     }
-    public void area(){
+    public double area(){
+
+       return lado * lado;
+
     }
-    public void rotable(){
+    public boolean rotable(){
+
+        return true;
+
     }
     public void dibujar(){
+
+        System.out.println("Dibujando un cuadrado con " + lado+" lados");
+
     }
 
 
